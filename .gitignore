@@ -1,9 +1,17 @@
-# Veriler GitHub'a yüklenmesin
+# Eğitim verileri (yüklenmesin)
 dataset/images/
 dataset/labels/
 
-# Geçici dosyalar
-*.pt
+# Eğitim sonuçları
 runs/
+*.pt
+
+# Geçici dosyalar
 __pycache__/
 *.log
+*.tmp
+.DS_Store
+
+# IDE dosyaları
+.vscode/
+.idea/
