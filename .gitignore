@@ -1,0 +1,9 @@
+# Veriler GitHub'a yüklenmesin
+dataset/images/
+dataset/labels/
+
+# Geçici dosyalar
+*.pt
+runs/
+__pycache__/
+*.log
